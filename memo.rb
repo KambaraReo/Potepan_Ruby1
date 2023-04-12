@@ -19,6 +19,7 @@ if memo_type == 1
   input = readlines # メモ内容取得
   newfile.puts(input)
   newfile.close
+  p "完了しました"
 # 2が入力される時の処理 
 else
   p "編集するファイル名を入力してください（拡張子を除く）"
